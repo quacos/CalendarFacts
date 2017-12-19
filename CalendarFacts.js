@@ -73,7 +73,7 @@ function CalendarFacts(){
             'it`s getting worse and no one knows why');
         consequences = consequences.concat(
             generate_plurality('it was even more extreme during the ',['Bronze Age','Ice Age','Cretaceous','1990s']),
-            generate_plurality('there`s a proposal to fix it, but it ',['will never happen','actually makes things worse','is stalled in Congress','might be unconstitutional']),
+            generate_plurality('there`s a proposal to fix it, but it ',['will never happen','actually makes things worse','is stalled in Congress','might be unconstitutional'])
         );
     }
     function get_random_element(array){
